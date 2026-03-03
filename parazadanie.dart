@@ -61,7 +61,7 @@ void main(){
   for (int num in number) {
     sum += num;
   }
-  print('Сумма: $sum');
+  print('cумма: $sum');
 
   //10 Задание
   List<int> number1 = [3, 7, 2, 9, 5];
@@ -71,5 +71,5 @@ void main(){
       max = number1[i];
     }
   }
-  print('Максимальный элемент: $max');
+  print('vаксимальный элемент: $max');
 }
