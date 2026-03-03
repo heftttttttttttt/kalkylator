@@ -55,4 +55,21 @@ void main(){
     print('$index: $city');
     index++;
   }
+    //9 Задание
+  List<int> number = [5, 10, 15, 20, 25];
+  int sum = 0;
+  for (int num in number) {
+    sum += num;
+  }
+  print('Сумма: $sum');
+
+  //10 Задание
+  List<int> number1 = [3, 7, 2, 9, 5];
+  int max = number1[0];
+  for (int i = 1; i < number1.length; i++) {
+    if (number1[i] > max) {
+      max = number1[i];
+    }
+  }
+  print('Максимальный элемент: $max');
 }
